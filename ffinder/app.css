@@ -1,0 +1,114 @@
+/* Réinitialiser les styles par défaut du navigateur */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style de l'en-tête (titre) */
+#title {
+    text-align: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Style du formulaire de recherche */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style du conteneur des résultats */
+.container {
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Style des éléments de la liste des résultats (si nécessaire) */
+
+/* Style des cartes de film */
+.film-card {
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.film-poster {
+    max-width: 100px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.film-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.film-title {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.film-year,
+.film-type {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+/* Ajoutez d'autres styles CSS personnalisés ici */
+
+
+/* Style de la balise <noscript> (si nécessaire) */
+noscript {
+    background-color: #FF6B6B;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Ajoutez d'autres styles CSS personnalisés ici */
+
